@@ -13,22 +13,22 @@ After you have installed your function, actually running it is simple. You have 
     "attributes": boolean
 }
 '''  
-*isFile*: a boolean value (True/False) which specifies if the xml value is a file path or plain text.    
-*xml*: the file path or text XML you want converted to JSON     
-*attributes*: a boolean value which specifies if you want to keep the attributes on the XML file (id, b, etc)    
+**isFile**: a boolean value (True/False) which specifies if the xml value is a file path or plain text.    
+**xml**: the file path or text XML you want converted to JSON     
+**attributes**: a boolean value which specifies if you want to keep the attributes on the XML file (id, b, etc)    
 
 ## Example     
 If you uploaded the following JSON to the function:      
-'''
+```
 {
     "isFile": True,
     "xml": "sample_xml.xml",
     "attributes": True
 }
-'''     
+```     
 
 sample_xml.xml:       
-'''
+```
 <?xml version="1.0"?>    
 <catalog>    
    <book id="bk101">
@@ -149,10 +149,10 @@ sample_xml.xml:
       environment.</description>
    </book>
 </catalog>
-'''
+```
 
 Output:
-'''
+```
 {
    "catalog":{
       "book":[
@@ -411,4 +411,4 @@ Output:
       ]
    }
 }
-'''
+```
