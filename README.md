@@ -6,13 +6,13 @@ Clone this repository and upload to AWS lambda with whatever name you see fit. T
 
 ## Usage  
 After you have installed your function, actually running it is simple. You have to pass in a JSON of the following form:   
-'''
+```
 {
     "isFile": boolean,
     "xml": String,
     "attributes": boolean
 }
-'''  
+```  
 **isFile**: a boolean value (True/False) which specifies if the xml value is a file path or plain text.    
 **xml**: the file path or text XML you want converted to JSON     
 **attributes**: a boolean value which specifies if you want to keep the attributes on the XML file (id, b, etc)    
