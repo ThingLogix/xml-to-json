@@ -1,10 +1,10 @@
-#ThingLogix  
-###AWS Lambda function to convert an xml file to json   
+# ThingLogix  
+### AWS Lambda function to convert an xml file to json   
 
-##Installation guide  
+## Installation guide  
 Clone this repository and upload to AWS lambda with whatever name you see fit. The handler should be *xml-to-json.lambda_handler* and the runtime should be *python3.6*.   
 
-##Usage  
+## Usage  
 After you have installed your function, actually running it is simple. You have to pass in a JSON of the following form:   
 '''
 {
@@ -17,7 +17,7 @@ After you have installed your function, actually running it is simple. You have 
 *xml*: the file path or text XML you want converted to JSON     
 *attributes*: a boolean value which specifies if you want to keep the attributes on the XML file (id, b, etc)    
 
-##Example     
+## Example     
 If you uploaded the following JSON to the function:      
 '''
 {
