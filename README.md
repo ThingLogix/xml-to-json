@@ -16,7 +16,6 @@ Under 'Author from scratch', make sure that you have each of the following:
 - Runtime must be 'Python 3.6'
 - Role must be 'Choose an existing role'
 - In the 'Existing role' drop down menu, select 'lambda_basic_execution'
-<br> *If you don't  have this option, there is something wrong with your cloud formation template. Follow [this tutorial](https://thinglogix.freshdesk.com/support/solutions/articles/16000057931-how-to-install-foundry) for help*
 
 Go ahead and create your lambda function by clicking the orange button in the bottom right corner
 
