@@ -1,7 +1,7 @@
 # ThingLogix  
 ### AWS Lambda function to convert an xml file to json   
 
-## Installation guide  
+## Installation Guide  
 
 You will first need to clone this repository to your device.  You can do this from this git hub page by clicking the green
 'clone or download' button found on the right side of the screen and clicking 'download as zip'.<br>
